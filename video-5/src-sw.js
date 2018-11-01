@@ -1,6 +1,4 @@
-importScripts(
-  "https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js"
-);
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 console.log("⚙️ Hello from Service Worker");
 

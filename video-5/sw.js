@@ -1,6 +1,4 @@
-importScripts(
-  "https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js"
-);
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 console.log("⚙️ Hello from Service Worker");
 
@@ -16,18 +14,26 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "app.js",
-    "revision": "06df590b8a9c642a16100ebc4a5b5d40"
+    "revision": "41be6674efd44b6678842171b6702a04"
   },
   {
     "url": "index.html",
-    "revision": "8140ba0086a3fe1eb67e5bcea09afc45"
+    "revision": "5ba99f5f1cd4d64cf2c9da3ff179fd33"
+  },
+  {
+    "url": "package-lock.json",
+    "revision": "9a98cbaee827c824318ca2119f3ad021"
+  },
+  {
+    "url": "package.json",
+    "revision": "4ec17d00d83e3bc40df6fbf7813cf301"
   },
   {
     "url": "src-sw.js",
-    "revision": "8be2d76d9b8bee1e68f25c14bce305e7"
+    "revision": "7d204a23c1c6416198c4a557083c5871"
   },
   {
     "url": "workbox-config.js",
-    "revision": "3f9d78424594cc238bb1ba9e3dc66fc1"
+    "revision": "53c8a9951b3b8e80d965e4c7868a6b98"
   }
 ]);

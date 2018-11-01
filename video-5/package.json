@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "workbox-cli": "^3.4.1"
+    "workbox-cli": "^3.6.3"
   }
 }
